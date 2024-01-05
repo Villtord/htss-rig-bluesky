@@ -60,7 +60,7 @@ Open ``<your project>/pyproject.toml`` and find the entry labelled ``"dependenci
     dependencies = [
         "bluesky<1.11",
         "ophyd",
-        "dodal @ git+https://github.com/DiamondLightSource/dodal.git",
+        "dls-dodal @ git+https://github.com/DiamondLightSource/dodal.git",
         "pyepics",
         "click"
     ]
